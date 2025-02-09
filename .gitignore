@@ -1,0 +1,4 @@
+chromedriver-mac-arm64/
+chromedriver-mac-arm64.zip
+*.json
+results/
