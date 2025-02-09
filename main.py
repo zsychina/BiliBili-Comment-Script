@@ -50,11 +50,11 @@ def save(comment_contents, vd, format='xlsx'):
     df = pd.DataFrame(comment_contents, columns=['评论', '点赞数'])
     if format == 'xlsx':
         df.to_excel(path, index=False)
-        print(f'视频{vd}的评论已保存至{path}')
     
     if format == 'csv':
         df.to_csv(path, index=False)
-        print(f'视频{vd}的评论已保存至{path}')
+       
+    print(f'视频{vd}的评论已保存至{path}')
 
 
 
